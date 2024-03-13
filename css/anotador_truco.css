@@ -1,0 +1,279 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.oculto {
+    display: none;
+    visibility: hidden;
+}
+
+.visible {
+    display: block;
+    visibility: visible;
+}
+
+body {
+    background: rgb(49, 49, 49);
+}
+
+/* <------------- PANTALLA 1 ----------> */
+
+.juego1 {
+    width: 420px;
+    height: 700px;
+
+    margin: 0 auto;
+    margin-top: 2%;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    background: green;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo_juego {
+    font-size: 1.2rem;
+    color: #fff; 
+}
+
+.img {
+    width: 100px;
+    height: 80px;
+    margin: 5px;
+}
+
+.nombres_equipos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.nombre_equipo {
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    padding-left: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+
+    background: green;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.nombre_equipo::placeholder {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.config_juego {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.modo_juego {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+
+    font-size: .9rem;
+    font-weight: bold;
+    background: green;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-inicio {
+    width: 120px;
+    height: 40px;
+
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+    color: green;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* PANTALLA 2 */
+
+.juego2 {
+    width: 420px;
+    height: 700px;
+
+    margin: 0 auto;
+    margin-top: 2%;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    background: green;
+
+    display: flex;
+   flex-wrap: wrap;
+}
+
+.display1 {
+    width: 207px;
+    height: 10%;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.equipo_nombre1 {
+    width: 160px;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.equipo_nombre2 {
+    width: 160px;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.display2 {
+    width: 207px;
+    height: 10%;
+    margin-right: 1px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 5px;
+
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.recuadroPuntos {
+    width: 208px;
+    height: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuadroPuntos:nth-child(3) {
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+.recuadroPuntos:nth-child(4) {
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+.recuadroPuntos:nth-child(5) {
+    border-right: 2px solid #fff;
+}
+.recuadroPuntos:nth-child(6) {
+    border-left: 2px solid #fff;
+}
+
+.display3 {
+    width: 153px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.display4 {
+    width: 110px;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.max {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.btn-fin {
+    width: 60px;
+    height: 30px;
+    font-size: .8rem;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: green;
+    background: #fff;
+}
+
+.display5 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 153px;
+    height: 10%;
+    padding-right: 5px;
+}
+
+.btn-sumar {
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: green;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.equipo_puntos {
+    width: 80px;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+.seleccionado {
+    background: #fff;
+    border: 2px solid #fff;
+    color: green;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: 40px;
+}
+
+.footer_texto {
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
+b {
+    color: rgb(0, 180, 0);
+}
+
+.logo {
+    width: 200px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotador de Truco</title>
+    <link rel="stylesheet" href="../css/anotador_truco.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   
+</head>
+<body>
+   
+    <div class="visible" id="pantalla1">
+
+        <div class="juego1">
+
+            <div class="titulo_juego">
+                <img class="logo" src="/asset/img/anotador-truco_logo.png" alt="" srcset="">
+            </div>
+    
+            <div class="nombres_equipos">
+                <input type="text" class="nombre_equipo" id="equipo1" placeholder="Nombre de equipo 1:">
+                <input type="text" class="nombre_equipo" id="equipo2" placeholder="Nombre de equipo 2:">
+            </div>
+    
+            <div class="config_juego">
+                <input class="modo_juego" type="button" value="A 15" id="a15">
+                <input class="modo_juego seleccionado" type="button" value="A 30" id="a30">
+            </div>
+    
+            <div class="iniciar_juego">
+                <input class="btn-inicio" type="button" value="Iniciar" id="iniciar">
+            </div>
+        </div>
+    </div>
+
+    <div class= "oculto" id="pantalla2">
+
+        <div class="juego2">
+
+            <div class="display1">
+                <input type="button" value="+" id="sumarEquipo1" class="btn-sumar">
+                <h2 class="equipo_nombre1" id="equipo1_nombre"></h2>
+            </div>
+    
+            <div class="display2">
+                <input type="button" value="+" id="sumarEquipo2" class="btn-sumar">
+                <h2 class="equipo_nombre2" id="equipo2_nombre"></h2>
+            </div>
+    
+            <div class="recuadroPuntos">
+                <img src="asset/img/0.png" class="img" id="p11">
+                <img src="asset/img/0.png" class="img" id="p12">
+                <img src="asset/img/0.png" class="img" id="p13">
+            </div>
+
+            <div class="recuadroPuntos">
+                <img src="asset/img/0.png" alt="" class="img" id="p21">
+                <img src="asset/img/0.png" alt="" class="img" id="p22">
+                <img src="asset/img/0.png" alt="" class="img" id="p23">
+            </div>
+
+            <div class="recuadroPuntos">
+                <img src="asset/img/0.png" alt="" class="img" id="p14">
+                <img src="asset/img/0.png" alt="" class="img" id="p15">
+                <img src="asset/img/0.png" alt="" class="img" id="p16">
+            </div>
+
+            <div class="recuadroPuntos">
+                <img src="asset/img/0.png" alt="" class="img" id="p24">
+                <img src="asset/img/0.png" alt="" class="img" id="p25">
+                <img src="asset/img/0.png" alt="" class="img" id="p26">
+            </div>
+    
+            <div class="display3">
+                <input type="button" value="-" id="restarEquipo1" class="btn-sumar">
+                <h2 class="equipo_puntos" id="puntos_equipo1"></h2>
+            </div>
+
+            <div class="display4">
+                <p class="max" id="max"></p>
+                <input type="button" value="FIN" id="fin" class="btn-fin">
+            </div>
+
+            <div class="display5">
+                <input type="button" value="-" id="restarEquipo2" class="btn-sumar">
+                <h2 class="equipo_puntos" id="puntos_equipo2"></h2>
+            </div>
+
+        </div>
+
+    </div>
+    <footer class="footer">
+        <p class="footer_texto">Diseñado por <b>Guido Saez</b></p>
+    </footer>
+    <script src="../js/anotador_truco.js"></script>
+</body>
+
+</html>
