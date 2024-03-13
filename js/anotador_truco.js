@@ -36,7 +36,7 @@ function fnInicio() {
     $("#max").text("A "+ max);
 
     // se reinicia a cero los fosforos
-    $(".img").attr("src","/asset/img/0.png");
+    $(".img").attr("src","asset/img/0.png");
 
     // se pone en cero el puntaje del equipo 1
     $("#puntos_equipo1").text("0");
@@ -97,54 +97,54 @@ function fnDibujarFosforos(numeroEquipo) {
 
         if (puntos > 0 && puntos <= 5) {
             fosforos = puntos;
-            $("#p"+numeroEquipo+1).attr("src", "../asset/img/"+ fosforos +".png");
-            $("#p"+numeroEquipo+2).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+3).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+4).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+5).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+6).attr("src", "../asset/img/0.png");
+            $("#p"+numeroEquipo+1).attr("src", "asset/img/"+ fosforos +".png");
+            $("#p"+numeroEquipo+2).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+3).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+4).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+5).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+6).attr("src", "asset/img/0.png");
         } else if (puntos > 5 && puntos <= 10) {
             fosforos = puntos - 5;
-            $("#p"+numeroEquipo+1).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+2).attr("src", "../asset/img/"+ fosforos +".png");
-            $("#p"+numeroEquipo+3).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+4).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+5).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+6).attr("src", "../asset/img/0.png");
+            $("#p"+numeroEquipo+1).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+2).attr("src", "asset/img/"+ fosforos +".png");
+            $("#p"+numeroEquipo+3).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+4).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+5).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+6).attr("src", "asset/img/0.png");
         } else if (puntos > 10 && puntos <= 15) {
             fosforos = puntos - 10;
-            $("#p"+numeroEquipo+1).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+2).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+3).attr("src", "../asset/img/"+ fosforos +".png");
-            $("#p"+numeroEquipo+4).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+5).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+6).attr("src", "../asset/img/0.png");
+            $("#p"+numeroEquipo+1).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+2).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+3).attr("src", "asset/img/"+ fosforos +".png");
+            $("#p"+numeroEquipo+4).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+5).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+6).attr("src", "asset/img/0.png");
         } else if (puntos > 15 && puntos <= 20) {
             fosforos = puntos - 15;
-            $("#p"+numeroEquipo+1).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+2).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+3).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+4).attr("src", "../asset/img/"+ fosforos +".png");
-            $("#p"+numeroEquipo+5).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+6).attr("src", "../asset/img/0.png");
+            $("#p"+numeroEquipo+1).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+2).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+3).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+4).attr("src", "asset/img/"+ fosforos +".png");
+            $("#p"+numeroEquipo+5).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+6).attr("src", "asset/img/0.png");
         } else if (puntos > 20 && puntos <= 25) {
             fosforos = puntos - 20;
-            $("#p"+numeroEquipo+1).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+2).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+3).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+4).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+5).attr("src", "../asset/img/"+ fosforos +".png");
-            $("#p"+numeroEquipo+6).attr("src", "../asset/img/0.png");
+            $("#p"+numeroEquipo+1).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+2).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+3).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+4).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+5).attr("src", "asset/img/"+ fosforos +".png");
+            $("#p"+numeroEquipo+6).attr("src", "asset/img/0.png");
         } else if (puntos > 25 && puntos <= 30) {
             fosforos = puntos - 25;
-            $("#p"+numeroEquipo+1).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+2).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+3).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+4).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+5).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+6).attr("src", "../asset/img/"+ fosforos +".png");
+            $("#p"+numeroEquipo+1).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+2).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+3).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+4).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+5).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+6).attr("src", "asset/img/"+ fosforos +".png");
         } else {
-            $("#p"+numeroEquipo+1).attr("src", "../asset/img/0.png");
+            $("#p"+numeroEquipo+1).attr("src", "asset/img/0.png");
         }
         
     }
@@ -152,30 +152,30 @@ function fnDibujarFosforos(numeroEquipo) {
     if (max == 15) {
         if (puntos > 0 && puntos <= 5) {
             fosforos = puntos;
-            $("#p"+numeroEquipo+1).attr("src", "../asset/img/"+ fosforos +".png");
-            $("#p"+numeroEquipo+2).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+3).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+4).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+5).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+6).attr("src", "../asset/img/0.png");
+            $("#p"+numeroEquipo+1).attr("src", "asset/img/"+ fosforos +".png");
+            $("#p"+numeroEquipo+2).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+3).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+4).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+5).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+6).attr("src", "asset/img/0.png");
         } else if (puntos > 5 && puntos <= 10) {
             fosforos = puntos - 5;
-            $("#p"+numeroEquipo+1).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+2).attr("src", "../asset/img/"+ fosforos +".png");
-            $("#p"+numeroEquipo+3).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+4).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+5).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+6).attr("src", "../asset/img/0.png");
+            $("#p"+numeroEquipo+1).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+2).attr("src", "asset/img/"+ fosforos +".png");
+            $("#p"+numeroEquipo+3).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+4).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+5).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+6).attr("src", "asset/img/0.png");
         } else if (puntos > 10 && puntos <= 15) {
             fosforos = puntos - 10;
-            $("#p"+numeroEquipo+1).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+2).attr("src", "../asset/img/5.png");
-            $("#p"+numeroEquipo+3).attr("src", "../asset/img/"+ fosforos +".png");
-            $("#p"+numeroEquipo+4).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+5).attr("src", "../asset/img/0.png");
-            $("#p"+numeroEquipo+6).attr("src", "../asset/img/0.png");
+            $("#p"+numeroEquipo+1).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+2).attr("src", "asset/img/5.png");
+            $("#p"+numeroEquipo+3).attr("src", "asset/img/"+ fosforos +".png");
+            $("#p"+numeroEquipo+4).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+5).attr("src", "asset/img/0.png");
+            $("#p"+numeroEquipo+6).attr("src", "asset/img/0.png");
         } else {
-            $("#p"+numeroEquipo+1).attr("src", "../asset/img/0.png");
+            $("#p"+numeroEquipo+1).attr("src", "asset/img/0.png");
         }    
     }
 }
